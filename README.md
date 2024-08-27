@@ -1,4 +1,4 @@
 # CITC-1300-ES
 This is the repository for CITC 1300
 
-<a> href = "Intro_to_HTML/index.html">"Intro To HTML</a>
+<a href = "proj1/index.html">Intro To HTML</a>
