@@ -5,11 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-chrome",
+            "type": "msedge",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "name": "Open index.html",
+            "file": "c:\\Users\\eb saunders\\OneDrive\\Documents\\GitHub\\CITC-1300-ES\\proj2\\index.html"
         }
     ]
 }
