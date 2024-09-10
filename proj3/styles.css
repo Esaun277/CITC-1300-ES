@@ -58,7 +58,13 @@ nav li a{
 nav a:hover{
 background-color: purple;
 display: inline-block;
+
+.lin{  
+   background-color: coral;
+   display: inline-block;
+   border-radius: 20px;
+   padding: 20px
 }
 
 }
-;
+;}
