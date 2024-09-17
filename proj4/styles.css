@@ -63,13 +63,77 @@ img{
          width: 125px;
          height:40px;
          line-height: 40px;
+
+         nav li {
+            display: inline-block;
+         }
       }    
 
 }
 
 
-@media screen and (min-width: 900px) {   
+@media screen and (min-width: 651px) and(max-width: 899px) {
+
+   #container{
+   background-color: wheat;
+   width: 65%;
+   margin: 20px auto;
+   border: 5px solid black;
+   padding: 5px;
+   }
    
+   nav{
+   text-align: center;
+   margin: 20px;
+   background-color: chocolate;
+   padding: 10px;
+   }
+   
+   nav ul {
+      list-style-type: none;
+      padding: 0;
+   }
+   
+   
+   nav li {
+   display: inline-block;
+   
+   }
+   
+   .responsive {
+      width: 50%;
+      height: auto;
+   }
+      
+   .heading_style {
+   color: saddlebrown;
+   text-shadow: 20px;
+   font-size: x-large;
+   }
+
+   nav li a{
+      display: block;
+      color: wheat;
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0 20px;
+      width: 125px;
+      height:40px;
+      line-height: 40px;
+
+      nav li {
+         display: inline-block;
+
+      }
+   }
+
+
+@media screen and (min-width: 900px) {   
+ body{
+   background-image:url(https://cdn-p.smehost.net/sites/7072b26066004910853871410c44e9f1/wp-content/uploads/2015/10/TheJimiHendrixExperience_AxisBoldAsLove_G010001885633O_F_001_72dpi-1024x1024.jpeg);
+background-size: 110%;
+background-repeat: no-repeat;
+
    #container {
    background-color: wheat;
    width: 65%;
@@ -139,3 +203,5 @@ img{
 
 }
    
+}
+}
