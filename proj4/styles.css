@@ -13,6 +13,24 @@ img{
 #container {
    background-color: wheat;
 
+.responsive{
+   width: 80%;
+   height: 100%;
+}
+
+.links{
+display: inline-block;
+background-color: darkslateblue;
+border-radius: 20px;
+padding: 20px;
+-webkit-text-stroke-color: wheat;
+
+}
+.lts{
+color: wheat;
+
+}
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 650px) {
@@ -66,13 +84,14 @@ img{
 
          nav li {
             display: inline-block;
+            background-color: burlywood;
          }
       }    
 
 }
 
 
-@media screen and (min-width: 651px){
+@media (min-width: 651px){
 
    #container{
    background-color: wheat;
@@ -80,6 +99,7 @@ img{
    margin: 20px auto;
    border: 5px solid black;
    padding: 5px;
+   border-radius: 20px;
    }
    
    nav{
@@ -87,6 +107,7 @@ img{
    margin: 20px;
    background-color: chocolate;
    padding: 10px;
+   border-radius: 20px;
    }
    
    nav ul {
