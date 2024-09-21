@@ -8,3 +8,5 @@ This is the repository for CITC 1300
 <a href = "proj3/index.html">Advanced CSS</a>
 <hr>
 <a href = "proj4/index.html">Responsive Web Design</a>
+<hr>
+<a href = "proj5/index.html">Final Project</a>
