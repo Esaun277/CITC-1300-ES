@@ -1,7 +1,7 @@
 
 /* Global Styles */
 body{
-    background-color: cornflowerblue;
+    background-color: darkgoldenrod;
  
  }
 
@@ -28,7 +28,7 @@ body{
  }
  
  #container {
-    background-color: burlywood;
+    background-color: goldenrod;
  }
  
  .responsive{
@@ -39,7 +39,7 @@ body{
  
  .links{
  display: inline-block;
- background-color: darkslateblue;
+ background-color: brown;
  border-radius: 20px;
  padding: 20px;
  margin: 20px;
@@ -90,7 +90,7 @@ body{
         
         h1, h2, h3{
         text-align: center;
-        color:purple;
+        color:chocolate;
         text-shadow: 20px;
         }
         
@@ -130,8 +130,9 @@ body{
 @media (min-width: 1024px) {
 
     body{
-        background-image:url(https://www.bykerwin.com/wp-content/uploads/2022/09/Jimi-Hendrix-FINAL-small-2022.jpg);
-     background-size: 110%;
+        background-image:url(https://i.pinimg.com/736x/79/a3/0f/79a30f790790850ecc9537684400747a.jpg);
+     background-size: 100%;
+     offset: 20px;
      background-repeat: no-repeat;
      }
   
